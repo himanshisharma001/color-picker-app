@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>🎨 Color Picker</h1>
+    <h6>Click this box to pick a color!</h6>
+    <input type="color" id="colorPicker" class="picker">
+     <div id="currentCode" class="color-code">#000000</div>
+    
+    <h5>Color Live Preview :</h5>
+    <div id="preview" class="preview"></div>
+    <button class="btn" id="saveBtn">Save to Favorites</button>
+
+    <div class="favorites">
+      <h2>Favorite Colors</h2>
+      <div class="fav-colors" id="favoritesList"></div>
+    </div>
+  </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
